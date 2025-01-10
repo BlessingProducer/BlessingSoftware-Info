@@ -217,7 +217,7 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 0 220px;
+        padding: 0 60px;
         box-shadow: 0 0 3px rgba(192, 192, 192, 0.5);
     }
 
@@ -261,7 +261,7 @@ footer {
 
     .main-menu ul li a {
         text-decoration: none;
-        font-size: 20px;
+        font-size: 16px;
         color: #e11d48;
     }
 
@@ -290,8 +290,8 @@ footer {
     }
 
     main {
-        padding-left: 220px;
-        padding-right: 220px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .articles-item {
@@ -317,7 +317,7 @@ footer {
     .articles-item .content a {
         text-decoration: none;
         color: #500724;
-        font-size: 27px;
+        font-size: 23px;
         font-weight: bold;
     }
 
@@ -326,7 +326,7 @@ footer {
     }
 
     .articles-item .content p {
-        font-size: 18px;
+        font-size: 15px;
         margin-top: 10px;
         line-height: 24px;
         margin-bottom: 10px;
@@ -358,10 +358,72 @@ footer {
     }
 
     .article-detail img {
-        width: 80%;
+        width: 95%;
     }
 
     footer {
         font-size: 18px;
     }
 }
+
+@media (min-width: 1024px) {
+    nav {
+        padding: 0 120px;
+    }
+    main {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .main-menu ul li a {
+        font-size: 18px;
+    }
+
+    .articles-item .content a {
+        font-size: 25px;
+    }
+
+    .articles-item .content p {
+        font-size: 15px;
+    }
+
+    .half-width{
+        width: 50%;
+    }
+
+    .article-detail img {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1280px) {
+    nav {
+        padding: 0 220px;
+    }
+    main {
+        padding-left: 220px;
+        padding-right: 220px;
+    }
+
+    .main-menu ul li a {
+        font-size: 20px;
+    }
+
+    .articles-item .content a {
+        font-size: 28px;
+    }
+
+    .articles-item .content p {
+        font-size: 16px;
+    }
+
+    .half-width{
+        width: 50%;
+    }
+
+    .article-detail img {
+        width: 80%;
+    }
+}
+
+
